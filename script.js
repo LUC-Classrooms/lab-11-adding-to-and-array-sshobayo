@@ -7,7 +7,7 @@ Step 2 - add comments explaining each line of code in this sketch.
 var dots = new Array(1); // create an empty array with 1 space
 
 function setup() { // set up the sketch
-  createCanvas(500, 300); set the size of the canvas
+  createCanvas(500, 300); // set the size of the canvas
   dots[0] = new Dot(width/2, height/2); 
   // initialize the dots array index 0 with a new instance of the Dot class
 } // end of the setup() function
