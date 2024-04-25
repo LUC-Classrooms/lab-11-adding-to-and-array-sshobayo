@@ -57,7 +57,7 @@ function Dot(X, Y){ // contructor function
     this.x += this.sx; // update horizontal location
     this.y += this.sy; // update vertical location
     
-    if (this.x < 0 || this.x > width){ if off screen horizontally
+    if (this.x < 0 || this.x > width){ // if off screen horizontally
         this.sx *= -1; // change direction
     } // end of if statement
     if (this.y < 0 || this.y > height){ // if off screen vertically
